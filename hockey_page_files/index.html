@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+  <script src="https://kit.fontawesome.com/f3620e27b5.js" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div id="opening-text">
+      <h1>Field Hockey</h1>
+        <p>One of my main hobbies outside of work is playing hockey. This is a simple website to provide a little bit more
+            information about the sport.
+        </p>
+    </div>
+    <hr>
+    <div class="belgian-photo">
+        <h2>A picture of the most recent Olympic Champions!</h2>
+        <img src="images/Belgian hockey champions.png" alt="Belgian hockey champions" id="olympic_champions"
+        style='height:300px; width:550px' onclick="toggleRadius()">
+      </div>
+
+    <div class="block-3">
+      <div class="teams">
+        <h3 style="padding: 15px; text-align: center;">Teams I have played for!</h3>
+        <button id="btn-1" onclick="toggleButtonColorBlue()">Team 1</button> <p id ="txt-1" class="txt">East Grinstead</p>
+        <button id="btn-2" onclick="toggleButtonColorGreen()">Team 2</button> <p id="txt-2" class="txt">University of Nottingham</p>
+        <button id="btn-3" onclick="toggleButtonColorPink()">Team 3</button> <p id="txt-3" class="txt">Teddington</p>
+      </div>
+      <div class="hockey-items">
+        <div>
+          <ul>
+            <p>List of items needed to play hockey!</p>
+            <div class="hockey-equipment">
+              <li>
+                Gumshield
+              </li>
+              <li>
+                Hockey stick
+              </li>
+              <li>
+                Shinpads
+              </li>
+              <li>
+                Glove
+              </li>
+              <li>
+                Ball
+              </li>
+            </div>
+          </ul>
+
+          <button id="alphabetical-ordering" class="">Arrange the items in alphabetical order!</button>
+        </div>
+        <div style="margin-top: 15px;">
+          <button id ="copy-button">Click to copy the link to buy some of these items!</button>
+          <input type="text" value="https://www.lovellsports.com/Hockey" id="text-to-copy" size="35" style="margin-left: 15px; padding: 8px; margin-top: 25px;"
+            readonly>
+        </div>
+      </div>
+    </div>
+
+    <div class="hockey-history">
+      <h2>Want to read more about hockey?</h2>
+      <button id="modal-button">Click here</button>
+        <div id="myModal" class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3>Facts about hockey</h3>
+            <li><i class="fa-solid fa-arrow-right"></i>
+              The modern game started in the early 1800's</li>
+            <li><i class="fa-solid fa-arrow-right"></i>
+              The sport was first played at the Olympics in 1908</li>
+            <li><i class="fa-solid fa-arrow-right"></i>
+              Hockey can also be played indoors</li>
+            </li>
+            <li><i class="fa-solid fa-arrow-right"></i>
+              India are the most successful mens team at the Olympics with 8 gold medals</li>
+          </div>
+        </div>
+    </div>
+  </div>
+
+  <footer id="footer"> © Edward Treece, 17 Glyndebourne Park, Orpington, London </footer>
+</body>
+
+<script src = application.js></script>
+
+</html>

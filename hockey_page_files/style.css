@@ -1,0 +1,175 @@
+html body{
+  background: #C0D6DF;
+}
+
+button{
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #4F6D7A;
+  color: white !important;
+}
+
+button:active{
+  transform: translateY(3px);
+}
+
+.container{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  font-family: 'Montserrat', sans-serif;
+  background: #EAEAEA;
+  box-shadow: 0 0 10px 5px #EAEAEA ;
+}
+
+.container h1 {
+  text-align: center;
+}
+
+.container p {
+  text-align: center;
+}
+
+.container li{
+  text-align: center;
+  list-style: none;
+}
+
+.belgian-photo{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+  font-family: 'Montserrat', sans-serif;
+  transition: 0.5s;
+  flex-direction: column;
+}
+
+.belgian-photo-rounded{
+  border-radius: 35px;
+}
+
+#olympic_champions{
+  max-width: 100%;
+  height: auto;
+}
+
+.blue-button{
+  background-color: blue;
+  color: white;
+}
+
+.pink-button{
+  background-color: #FFC0E1;
+  color: white;
+}
+
+.green-button{
+  background-color: green;
+  color: white;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #C0D6DF !important;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 15px;
+  border: 1px solid #888;
+  width: 70%; /* Could be more or less, depending on screen size */
+  border-radius: 10px;
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#footer{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  margin-top: 15px;
+}
+
+.hockey-items{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.block-3{
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+@media (max-width: 800px) {
+  .block-3 {
+    flex-direction: column;
+  }
+}
+
+.teams{
+  display: flex;
+  flex-direction: column;
+}
+
+.hockey-history{
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+
+#opening-text{
+  padding: 20px;
+  margin-bottom: 0px;
+}
+
+#opening-text p{
+  margin-top: 25px;
+}
+
+.txt{
+  opacity: 0;
+}
+
+hr{
+  border-top: 1px solid grey !important;
+}
+
+#modal-button{
+  padding: 8px;
+}
+
+i{
+  padding: 0px 10px 0px 0px;
+}
