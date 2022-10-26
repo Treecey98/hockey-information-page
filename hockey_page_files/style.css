@@ -23,7 +23,7 @@ button:active{
   width: 75%;
   font-family: 'Montserrat', sans-serif;
   background: #EAEAEA;
-  box-shadow: 0 0 10px 5px #EAEAEA ;
+  box-shadow: 0 0 10px 5px black ;
 }
 
 .container h1 {
