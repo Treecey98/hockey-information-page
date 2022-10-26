@@ -1,5 +1,8 @@
 html body{
   background: #C0D6DF;
+  background-image: url('images/Lee Valley.png');
+  background-blend-mode: luminosity;
+  background-size: cover;
 }
 
 button{
@@ -113,6 +116,7 @@ button:active{
 
 #footer{
   text-align: center;
+  color: white;
   font-family: 'Montserrat', sans-serif;
   font-size: 12px;
   margin-top: 15px;
